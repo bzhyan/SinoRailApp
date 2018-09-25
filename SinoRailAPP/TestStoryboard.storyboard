@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Test-->
+        <scene sceneID="z8d-7Z-YJK">
+            <objects>
+                <viewController storyboardIdentifier="testStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="4nc-Yl-cKY" customClass="Test" customModule="SinoRailAPP" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P4q-7g-UeK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="7ON-QB-Zs4">
+                                <rect key="frame" x="168" y="315" width="39" height="37"/>
+                            </pageControl>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="yhi-iS-Ooe">
+                                <rect key="frame" x="0.0" y="55" width="359" height="552"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="552" id="9p3-ky-8QQ"/>
+                                    <constraint firstAttribute="width" constant="375" id="xh5-xz-eY0"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7ON-QB-Zs4" firstAttribute="centerY" secondItem="P4q-7g-UeK" secondAttribute="centerY" id="Id1-jr-DGU"/>
+                            <constraint firstItem="yhi-iS-Ooe" firstAttribute="centerX" secondItem="P4q-7g-UeK" secondAttribute="centerX" id="VOd-p0-xV1"/>
+                            <constraint firstItem="yhi-iS-Ooe" firstAttribute="centerY" secondItem="P4q-7g-UeK" secondAttribute="centerY" id="ZGx-zj-M09"/>
+                            <constraint firstItem="7ON-QB-Zs4" firstAttribute="centerX" secondItem="P4q-7g-UeK" secondAttribute="centerX" id="uhS-5Z-pxa"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="LH7-QO-fpy"/>
+                    </view>
+                    <connections>
+                        <outlet property="pageControl" destination="7ON-QB-Zs4" id="Pe6-VK-dPS"/>
+                        <outlet property="scrollView" destination="yhi-iS-Ooe" id="1u0-3C-ofG"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dXs-yE-fwh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-108" y="-161.46926536731635"/>
+        </scene>
+    </scenes>
+</document>

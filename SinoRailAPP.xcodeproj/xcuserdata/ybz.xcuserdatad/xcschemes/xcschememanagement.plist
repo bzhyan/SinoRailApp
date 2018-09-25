@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>SinoRailAPP.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>5C336E6E21255AC8000AEF41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C336E8221255ACA000AEF41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>5C336E8D21255ACA000AEF41</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
